@@ -1,4 +1,19 @@
-div{
-    background-color: rgb(133, 104, 66);
-    color: rgb(68, 68, 182)
+.parent {
+    padding: 25px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    height: 350px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.child {
+    border: 2px solid rgb(90, 196, 185);
+    background-color: rgb(178, 228, 160);
+    padding: 20px;
+    font-size: 28px;
+    
 }
